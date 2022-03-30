@@ -3,6 +3,9 @@
     position: fixed;
     z-index: 1000;
 }
+.nav__scroll .menu {
+    filter: invert(1);
+}
 .nav__scroll .logo {
     filter: invert(1);
 }

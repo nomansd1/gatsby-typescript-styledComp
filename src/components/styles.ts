@@ -131,6 +131,7 @@ export const Menu = styled.ul`
     align-items: center;
     list-style: none;
     font-Family: "Roc-Grotesk";
+    color: #fff;
     @media (max-width: 1070px) {
         display: none;
     }
