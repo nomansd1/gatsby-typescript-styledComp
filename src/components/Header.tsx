@@ -48,9 +48,9 @@ function Header() {
         <SideBar style={{ left: open ? "0" : "-100%"}}>
           <SidebarMenu>
             <CloseToggleButton>
-              <CloseIcon></CloseIcon>
+              <CloseIcon onClick={() => setOpen(false)}></CloseIcon>
             </CloseToggleButton>
-            <SidebarLogo onClick={() => setOpen(false)}>
+            <SidebarLogo>
               <SidebarLogoIcon src={logo} />
             </SidebarLogo>
             <SidebarLinks>
