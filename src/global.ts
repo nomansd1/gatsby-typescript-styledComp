@@ -1,5 +1,6 @@
 import {createGlobalStyle} from 'styled-components'
 import primaryFont from './assets/fonts/FontsFree-Net-RocGrotesk.ttf'
+import primaryFont2 from './assets/fonts/FontsFree-Net-RocGrotesk2.ttf'
 
 export default createGlobalStyle`
     @font-face {

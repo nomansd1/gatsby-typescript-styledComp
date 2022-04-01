@@ -227,3 +227,113 @@ export const SidebarLink = styled.li`
     color: #000;
     position: relative;
 `
+// Info grid section
+export const InforGridWrapper = styled.div`
+    width: 100%;
+    padding: 5rem 6rem;
+    margin:0 auto;
+    background: #F0E8D9;
+    @media (max-width: 1070px) {
+        padding: 5rem 3rem;
+    }
+`
+export const Heading = styled.h1`
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-align: center;
+    @media (max-width: 1070px) {
+        font-size: 2.7rem;
+    }
+    @media (max-width: 700px) {
+        font-size: 2.5rem;
+    }
+    @media (max-width: 500px) {
+        font-size: 2rem;
+    }
+
+`
+export const Text = styled.p`
+    font-size: 13px;
+    font-weight: 500;
+    padding: 2rem 15rem;
+    justify-content: center;
+    @media (max-width: 1070px) {
+        padding: 2rem 9rem;
+    }
+    @media (max-width: 900px) {
+        padding: 2rem 5rem;
+    }
+    @media (max-width: 700px) {
+        padding: 2rem 3rem;
+    }
+    @media (max-width: 550px) {
+        padding: 2rem 2rem;
+    }
+    @media (max-width: 450px) {
+        padding: 2rem 1rem;
+    }
+`
+export const Grid = styled.div`
+    display: flex;
+    width: 100%;
+    margin-top: 2rem;
+    @media (max-width: 900px) {
+        flex-direction: column;
+    }
+`
+export const GridTile = styled.div`
+    width: 50%;
+    height: 400px;
+    background: ${props => `url(${props.img})`};
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    @media (max-width: 900px) {
+        width: 100%
+    }
+    @media (max-width: 900px) {
+        height: 380px;
+    }
+    @media (max-width: 700px) {
+        height: 350px;
+    }
+    @media (max-width: 500px) {
+        height: 280px;
+    }
+`
+export const ImageGradient = styled.div`
+    position: relative;
+    width: 100%;
+    height: 100%;
+    &:hover {
+    background: transparent linear-gradient(180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.45) 100%) 0% 0% no-repeat padding-box;
+    }
+`
+export const InfoWrap = styled.div`
+    position: absolute;
+    bottom: 0;
+    display: none;
+    color: #fff;
+    padding: 2rem;
+    background: transparent;
+    z-index: 1000;
+`
+export const Box = styled.div`
+    display: block;
+`
+export const TileTitle = styled.h2`
+    font-weight: 700;
+    color: #fff;
+    @media (max-width: 700px) {
+        font-size: 20px
+    }
+`
+export const InfoText = styled.p`
+    font-size: 12px;
+    width: 65%;
+    @media (max-width: 700px) {
+        font-size: 10px;
+        width: 100%
+    }
+`
